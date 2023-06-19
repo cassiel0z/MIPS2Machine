@@ -1,0 +1,21 @@
+20
+addi $v0,$v1,4
+addi $a0,$a2,6
+addi $s3,$t3,7
+addi $zero,$gp,12
+addi $s2,$k0,8
+addiu $v0,$v1,5
+addiu $a1,$t4,15
+addiu $s0,$sp,36
+addiu $k0,$zero,55
+addiu $at,$ra,9
+slti $at,$v1,8
+slti $a1,$a2,30
+slti $t0,$s0,144
+slti $sp,$fp,6
+slti $ra,$s7,13
+sltiu $v1,$s0,99
+sltiu $s0,$s1,7
+sltiu $t3,$k1,14
+sltiu $gp,$zero,1
+sltiu $a3,$sp,5

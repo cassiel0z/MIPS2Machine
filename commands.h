@@ -62,4 +62,20 @@ int getMachineCode(const string &op) {
     return binary2Decimal(operator_map[op] + rs + rt + immediate);
 }
 
+int ADDI(){
+    return getMachineCode("addi");
+}
+
+int ADDIU(){
+    return getMachineCode("addiu");
+}
+
+int SLTI(){
+    return getMachineCode("slti");
+}
+
+int SLTIU(){
+    return getMachineCode("sltiu");
+}
+
 #endif //MIPS2MACHINE_COMMANDS_H
